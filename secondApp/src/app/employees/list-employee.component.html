@@ -1,0 +1,7 @@
+<!-- <div class="card" *ngFor="let item of employees">
+
+    <app-display-employee [item]="item"></app-display-employee>
+</div> -->
+<button type="button" (click)="NextEmployees()" class="btn btn-primary">View the next employees</button><br>
+<app-display-employee [item]="employeeToDisplay"></app-display-employee>
+
